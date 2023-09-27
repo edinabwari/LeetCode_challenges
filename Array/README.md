@@ -1,5 +1,6 @@
 ## Arrays
 In this repo, we take arrays head-on, forming a strong foundation for tackling a wide array of programming challenges😄. From finding the Two Sum or the Best Time to Buy and Sell Stock to more complex tasks like solving the 3 Sum problem or uncovering the Minimum in a Rotated Sorted Array, we're here to sharpen our problem-solving skills and unlock the full potential of arrays. So, whether you're a seasoned coder looking to refine your array expertise or a newcomer eager to learn, this will be fun.
+
 ---
 ### 1. `twoSums`
 Given an array of integers **nums** and an integer **target**, return indices of the two numbers such that they add up to **target**.

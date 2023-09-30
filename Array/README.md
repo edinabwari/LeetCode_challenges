@@ -10,6 +10,7 @@ You may assume that each input would have exactly one solution, and you may not 
 You can return the answer in any order.
 
  
+
 Example 1:
 
 > Input: nums = [2,7,11,15], target = 9
@@ -50,6 +51,7 @@ You want to maximize your profit by choosing a **single day** to buy one stock a
 Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return `0`.
 
  
+
 Example 1:
 
 > Input: prices = [7,1,5,3,6,4]
@@ -78,29 +80,14 @@ Constraints:
 > 0 <= prices[i] <= 104
 
 ---
-<<<<<<< HEAD
-
-### 3. 'Contains Duplicate'
-
-Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
-
- 
-=======
 ### `Contains Duplicate`
 
 Given an integer array `nums`, return `true` if any value appears at least twice in the array, and return `false` if every element is distinct.
 
->>>>>>> bd9bcefd163a01120c1e5260dc68855dcf0ea53e
 
 Example 1:
 
 > Input: nums = [1,2,3,1]
-<<<<<<< HEAD
-> Output: true
-
-Example 2:
-> Input: nums = [1,2,3,4]
-=======
 >
 > Output: true
 
@@ -108,27 +95,17 @@ Example 2:
 
 > Input: nums = [1,2,3,4]
 >
->>>>>>> bd9bcefd163a01120c1e5260dc68855dcf0ea53e
 > Output: false
 
 Example 3:
 
 > Input: nums = [1,1,1,3,3,4,3,2,4,2]
-<<<<<<< HEAD
-> Output: true
- 
-=======
 >
 > Output: true
->>>>>>> bd9bcefd163a01120c1e5260dc68855dcf0ea53e
 
 Constraints:
 
 > 1 <= nums.length <= 105
-<<<<<<< HEAD
-> -109 <= nums[i] <= 109
-=======
 >
 > -109 <= nums[i] <= 109
 
->>>>>>> bd9bcefd163a01120c1e5260dc68855dcf0ea53e

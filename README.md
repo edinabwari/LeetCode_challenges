@@ -5,5 +5,6 @@ This repository  will contain solutions💡 to various LeetCode coding challenge
 
 ---
 ## Array
-* [Two sum](https://github.com/edinabwari/LeetCode_challenges/blob/main/Array/TwoSums.py)
-* [Best Time to Buy and Sell Stock](https://github.com/edinabwari/LeetCode_challenges/blob/main/Array/buySellStock.js)
+* [Two sum](https://github.com/edinabwari/LeetCode_challenges/blob/main/Array/TwoSums.py).
+* [Best Time to Buy and Sell Stock](https://github.com/edinabwari/LeetCode_challenges/blob/main/Array/buySellStock.js).
+* [Contains Duplicates](https://github.com/edinabwari/LeetCode_challenges/blob/main/Array/containsDuplicate.py).

@@ -1,4 +1,4 @@
-// given an array of prices
+// given an array of prices input
 // maximazie to profit on selecting a specific day to buy and sell 
 // return maximum profit
 // you must sell before you buy

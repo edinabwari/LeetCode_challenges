@@ -9,17 +9,16 @@
  */
 var maxProfit = function(prices) {
     let min_price = prices[0];
-    let max_Profit = 0;
+    let maxProfit = 0;
     for (let i = 0; i < prices.length; i++) {
-        if (prices[i] < min_price) {
-            min_price = prices[i];
-        } else if (prices[i] - min_price > maxProfit) {
-            max_Profit = prices[i] - min_price;
-        }
+        // Update the minimum price if we find a lower price
+        min_price = Math.min(min_price, prices[i]);
+        // Update the maximum profit if selling at the current price gives a higher profit
+        maxProfit = Math.max(maxProfit, prices[i] - min_price);
     }
-    return max_Profit;
+    return maxProfit;
 };
-const prices = [7,1,5,3,6,4];
+const prices = [7,6,5,4,2,3];
 const maxiProfit = maxProfit(prices)
 
 console.log(maxiProfit);
